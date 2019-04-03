@@ -6,3 +6,8 @@ function printArr($items){
 
     }
 }
+
+function largest($nums){
+    $largest = max($nums);
+    return $largest;
+}

@@ -33,6 +33,10 @@ $large = largest($numbers);
 echo "This is the largest:";
 echo $large;
 
+echo "<br> this is the average:";
+$averages= average($numbers);
+echo $averages;
+
 ?>
 
 </body>

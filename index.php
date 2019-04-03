@@ -5,6 +5,17 @@
  * Date: 4/3/2019
  * Time: 2:13 PM
  */
+//function that prints out all the items in an array
+function printArr($items){
+    foreach ($items as $item){
+        echo $item . "<br>";
+
+    }
+}
+//array to be printed
+$numbers=array(7,9,8,9,8,8,6);
+
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,6 +28,9 @@
 </head>
 <body>
 <h1>Pair Program 1</h1>
+<?php
+printArr($numbers);
+?>
 
 </body>
 </html>

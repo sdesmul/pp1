@@ -1,17 +1,14 @@
 <?php
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(E_All);
 /**
  * Created by PhpStorm.
  * User: samantha
  * Date: 4/3/2019
  * Time: 2:13 PM
  */
-//function that prints out all the items in an array
-function printArr($items){
-    foreach ($items as $item){
-        echo $item . "<br>";
-
-    }
-}
+include("functions.php");
 //array to be printed
 $numbers=array(7,9,8,9,8,8,6);
 
@@ -30,6 +27,7 @@ $numbers=array(7,9,8,9,8,8,6);
 <h1>Pair Program 1</h1>
 <?php
 printArr($numbers);
+
 ?>
 
 </body>

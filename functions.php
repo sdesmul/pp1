@@ -17,3 +17,6 @@ function average($array){
     return $average;
 }
 
+function removeDups($array){
+    return array_unique($array);
+}

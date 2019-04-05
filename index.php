@@ -37,6 +37,9 @@ echo "<br> this is the average:";
 $averages= average($numbers);
 echo $averages;
 
+echo"<br> removed the duplicates from the array: ";
+$noDuplicates = removeDups($numbers);
+echo print_r($noDuplicates);
 ?>
 
 </body>

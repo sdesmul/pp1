@@ -20,3 +20,8 @@ function average($array){
 function removeDups($array){
     return array_unique($array);
 }
+
+function distribution($array){
+    sort($array);
+    return array_count_values($array);
+}

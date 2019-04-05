@@ -40,6 +40,10 @@ echo $averages;
 echo"<br> removed the duplicates from the array: ";
 $noDuplicates = removeDups($numbers);
 echo print_r($noDuplicates);
+
+echo "<br> number of times a number shows up in the array: ";
+$distributionNum= distribution($numbers);
+echo print_r($distributionNum);
 ?>
 
 </body>
